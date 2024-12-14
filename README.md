@@ -6,7 +6,8 @@
 - [Functional Requirements](#functional-requirements)
 - [Non-Functional Requirements](#non-functional-requirements)
 - [Constraints](#constraints)
-- [Use Case Model](#use-case-model)
+- [Top Level Use Case Model](#use-case-model)
+- [Use case [Manage-time]](#mange-time-use-case)
 
 ---
 
@@ -51,8 +52,19 @@ Without having to be an expert in company policy.
 
 ---
 
-## Use Case Model
+## Top Level Use Case Model
 
-[Use Case Model](./use_cases/manage_time/flow_chart.png)
+![Use Case Model](./use_cases/top_level_use_case_model.png)
+
+---
+
+## Use case [Manage-time]
+
+- **Actor**: Employee
+- **Goal**: Employee wishes to submit new vacation time request.
+- **Preconditions**:
+  - Employee is authenticated by portal system.
+  - To be identified as Employee of the company with privileges to manage his own vacation time.
+- **Flow chart**: ![Manage time use case](./use_cases/manage_time/flow_chart.png)
 
 ---
