@@ -53,6 +53,6 @@ Without having to be an expert in company policy.
 
 ## Use Case Model
 
-[Use Case Model](./diagrams/VTS-top-level-use-case-model.png)
+[Use Case Model](./use_cases/manage_time/flow_chart.png)
 
 ---
